@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+
+<view class="container">
+
+  <view>
+  <!-- 登录回调:用户未授权会弹出授权窗口，用户已授权会返回用户信息 -->
+  <button class='goRegisterBtn' open-type="getUserInfo" bindgetuserinfo="doLogin"> 微信登录 </button>
+
+  
+  </view>
+</view>
+
